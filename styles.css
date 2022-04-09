@@ -1,10 +1,14 @@
-@font-face {
+/* @font-face {
   src: url(./fonts/Open_Sans/OpenSans-Regular.ttf);
   font-family: Open-Sans-Regular;
-}
+} */
 @font-face {
   src: url(./fonts/Raleway/static/Raleway-Regular.ttf);
   font-family: Raleway-Regular;
+}
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(./fonts/Nunito/static/Nunito-Regular.ttf);
 }
 :root {
   --intro-bg: hsl(217, 28%, 15%);
@@ -20,12 +24,12 @@
 body {
   color: white;
   font-size: 14px;
-  font-family: nos;
-  font-family: 'Open-Sans-Regular', sans-serif;
+  /* font-family: nos; */
+  font-family: "Nunito-Regular", sans-serif;
   width: 100vw;
 }
 .headings {
-  font-family: 'Raleway-Regular', sans-serif;
+  font-family: "Raleway-Regular", sans-serif;
 }
 .header {
   background-color: var(--intro-bg);
